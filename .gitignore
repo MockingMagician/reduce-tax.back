@@ -1,7 +1,14 @@
-/dist/
-/node_modules/
-/.idea/
-.*
-!.gitignore
-!.gitattributes
-!.prettierrc
+# compiled output
+/dist
+/node_modules
+/build
+
+# IDEs and editors
+/.idea
+
+# dotenv environment variable files
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
